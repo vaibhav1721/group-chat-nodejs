@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.395.0",
+    "axios": "^0.19.2",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "circular-json": "^0.5.9",
+    "config": "^3.0.0",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "gps-tracking": "^1.1.1",
+    "hex-to-binary": "^1.0.1",
+    "http": "0.0.0",
+    "joi": "^14.3.1",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongodb": "^2.2.19",
+    "mysql": "^2.16.0",
+    "net": "^1.0.2",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
+  }
+}
