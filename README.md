@@ -6,3 +6,6 @@ STEPS TO RUN THE APPLICATIONS:
 3. run NODE_ENV=development node app.js
 
 
+**For socket io please run:**
+
+npm install socket.io@0.9
