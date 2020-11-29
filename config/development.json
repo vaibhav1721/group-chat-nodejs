@@ -1,11 +1,9 @@
 {
-  "PORT" : 8080,
+  "PORT" : 7891,
   "databaseSettings" :{
     "host"    : "localhost",
-    "mongo_db_connection":"mongodb://127.0.0.1:27017/db_card_game"
+    "mongo_db_connection":"mongodb://127.0.0.1:27017/db_socket"
   },
   "mongoCollections" :{
-    "playersCardDetail" : "tb_players_card_detail",
-    "playersMovesHistory" : "tb_player_moves_history"
   }
 }

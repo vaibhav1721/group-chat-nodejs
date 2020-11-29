@@ -1,3 +1,7 @@
 //require('./admin');
 
-require('./cardGame');
+require('./chat');
+
+// require('./faultTolerant');
+
+// require('./socket');

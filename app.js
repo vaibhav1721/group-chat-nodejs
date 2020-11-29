@@ -19,10 +19,17 @@ app.use(function (req, res, next) {
     next();
 });
 //Will require all modules here
+startServices.initializeServer();
 
 require("./modules");
 
 if ('development' == app.get('env')) {
     app.use(errorhandler());
 }
-startServices.initializeServer()
+app.set('view options', { layout: false })
+
+app.get('/', function(req, res) {
+  res.render('index.ejs');
+});
+
+
