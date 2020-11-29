@@ -1,4 +1,4 @@
-**CARD GAME NODE JS APIS**
+**Chat NODE JS APIS**
 
 STEPS TO RUN THE APPLICATIONS:
 1. npm install --all
@@ -9,3 +9,9 @@ STEPS TO RUN THE APPLICATIONS:
 **For socket io please run:**
 
 npm install socket.io@0.9
+
+**To Get data per rooms:**
+api : get_room_data
+method : GET
+
+url : 127.0.0.1:7891/get_room_data?room_id=room1
